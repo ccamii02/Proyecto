@@ -1,0 +1,686 @@
+/*index*/
+
+body{
+    margin:0px;
+    background-image: url("../proyecto/fondo2.jpg");
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    font-family:'BIZ UDPMincho', serif <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">   
+}
+
+header{
+    padding-bottom:10px;
+    padding-top:10px; 
+    height:150px;
+    width:100%;
+    text-align:center;
+    line-height:25px;
+    background-color: rgb(187, 241, 198); 
+    display:grid;
+    grid-area: 
+    "header"
+    "main"
+    "footer"; 
+    
+}
+
+
+/*menu*/
+
+.menu-index{
+    display: grid;
+    justify-items:center;
+    text-align:center;
+    float: left;
+    list-style: none;
+    margin:50px;
+    line-height:5px;
+    font-size:large ;
+    font-weight:550 ;
+    word-spacing:500px; 
+   
+}
+a{
+    color: black;
+}
+ul{
+    margin: 0px;
+}
+
+/*categorias de la tienda*/
+
+.categoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/*imagen de las categorias*/
+
+.imagen-categoria{
+    padding:14px;  
+    padding-bottom:25px;
+    position: relative;
+    margin: 50px;
+    border: solid 2px rgb(241, 227, 227);
+    background-color: aliceblue;
+    
+}
+
+.seccion{
+    left:10px;
+    bottom:10px;
+    position: absolute;
+    color: black;
+    
+}
+
+div ul li{
+    float: left;
+    list-style:none;
+    margin:150px;
+    line-height:1px;
+    font-size:large ;
+    font-weight:550 ;
+    margin-top:80px ;
+    margin-bottom:80px;
+}
+
+/*espacio del subtitulo*/
+.espacio{
+    clear: both;
+}
+
+/*imagenes de producto destacados*/
+
+.destacados{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:100px;
+}
+
+.destacados-1{
+    padding: 10px;
+    padding-bottom:25px;
+    position: relative;
+    margin:15px;
+    margin-right:100px;
+    margin-left:100px;
+    border:solid 2px rgb(241, 227, 227);
+    background-color:aliceblue;
+    
+}
+h2{
+    text-decoration:underline;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    margin: 0px;  
+}
+
+/*pie de la pagina*/
+footer{
+   background-color:rgb(187, 241, 198);
+   
+}
+footer ul li a{
+    font-weight: 550;
+    color: black;
+}
+span{
+    font-weight:500;
+}
+
+/*separacion del pie*/
+.separacion{
+    clear: both;
+}
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: x larger;
+}
+
+/*seccion frutos secos*/
+
+.frutos-secos
+header{
+    background-color: rgb(124, 82, 163);
+    height: 190px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px   
+}
+
+/*imagenes seccion frutos secos*/
+
+.frutos-secos-producto{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+
+}
+
+.producto-frutos{
+    margin:15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    padding:10px;
+    padding-bottom:25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);
+      
+}
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion legumbres*/
+
+/*imagenes seccion legumbres*/
+
+.legumbres-seccion{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:100px;
+}
+
+.producto-legumbres{
+    margin:15px;
+    margin-left:100px;
+    margin-right: 100px; 
+    position: relative;
+    padding:10px;
+    padding-bottom:25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);
+    
+       
+}
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion semillas y especias*/
+
+/*imagenes seccion semillas*/
+
+.semillas-producto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:100px;
+}
+
+.semillas{
+    margin:15px;
+    margin-left:100px;
+    margin-right:100px;
+    position: relative;
+    padding:10px;
+    padding-bottom:25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);
+  
+}
+
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion infusiones y tes*/
+
+/*imagenes seccion infusiones y tes*/
+
+.infusiones-producto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.infusion{
+    margin:14px;
+    margin-left:100px;
+    margin-right:100px;
+    position: relative;
+    padding:10px;
+    padding-bottom:25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);
+   
+}
+
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*AQUI VA EL HOVER*/
+
+.imagen-categoria :hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out     
+}
+
+.destacados-1 :hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out
+
+}
+
+.menu-index ul a:hover{
+    background-color: rgb(229, 255, 176);
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.legumbres-seccion :hover {
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+.frutos-secos-producto :hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.semillas-producto :hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+
+}
+.infusiones-producto :hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+/*AQUI VA EL MEDIA QUERIES*/
+/*========================*/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .menu-index{
+        display:grid;
+        justify-content: space-between;
+        word-spacing:150px;
+        justify-content: space-evenly;
+    }
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:10px;
+    }
+
+    .destacados{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion legumbres*/
+
+    .legumbres-seccion{
+        justify-content: space-around;
+        margin: 0px;
+        
+    }
+
+    .producto-legumbres{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    /*seccion frutos secos*/
+
+    .frutos-secos-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .producto-frutos{
+        display: grid;
+        justify-content: space-around;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    /*seccion semillas*/
+
+    .semillas-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .semillas{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion infusiones*/
+
+    .infusiones-producto{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .infusion{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    .menu-index{
+        display:grid;
+        justify-content: space-between;
+        word-spacing:100px;
+        justify-content: space-evenly;
+    }
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:5px;
+        padding-left:150px;
+    }
+
+}
+
+
+@media screen and (min-width:425px) and (max-width:712px){
+
+    body{
+        background-image:none;
+    }
+
+    header{
+        display:grid;
+        padding:150px;
+        font-size:larger;
+    }
+
+    .menu-index{
+        display:grid;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        line-height:25px;
+        font-size:larger;
+
+    }
+
+    .categoria{
+        display: grid;
+        justify-content: space-around;
+        margin-left:10px;
+          
+    }
+
+      
+}
+
+
+@media screen and (min-width:320px) and (max-width:375px){
+
+    body{
+        background-image:none;
+    }
+
+    header{
+        display:grid;
+        padding:150px;
+        font-size:larger;
+    }
+
+    footer{
+        font-size: larger;
+        line-height:20px;
+    
+    }
+
+    .menu-index{
+        display:grid;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        line-height:25px;
+        font-size:larger;
+    }
+
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:10px;
+          
+    }
+    
+    .destacados{
+        justify-content: space-around;
+         margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+      
+}
+
+
+@media screen and (min-width:2560px){
+
+    header{
+        font-size:larger;
+        padding-top:100px;
+    }
+
+    .menu-index{
+        display:grid;
+        justify-content: space-between;
+        word-spacing:150px;
+        justify-content: space-evenly;
+        font-size:larger;
+       
+    }
+    
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:10px;
+
+    }
+    
+    .destacados{
+        justify-content: space-around;
+        margin:10px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left:200px;
+        margin-right:200px;
+    }
+
+     /*seccion legumbres*/
+
+     .legumbres-seccion{
+        justify-content: space-around;
+        margin: 10px;
+        
+    }
+    .producto-legumbres{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
+
+    /*seccion frutos secos*/
+
+    .frutos-secos-producto{
+        justify-content: space-around;
+        margin: 10px;
+
+    }
+
+    .producto-frutos{
+        display: grid;
+        justify-content: space-around;
+        margin-left:200px;
+        margin-right:200px;
+    }
+
+    /*seccion semillas*/
+
+    .semillas-producto{
+        justify-content: space-around;
+        margin: 10px;
+
+    }
+
+    .semillas{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    /*seccion infusiones*/
+
+    .infusiones-producto{
+        justify-content: space-around;
+        margin: 10px;
+    }
+
+    .infusion{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+        
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+    
+
