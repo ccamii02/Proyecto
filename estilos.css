@@ -2,11 +2,11 @@
 
 body{
     margin:0px;
-    background-image: url("../proyecto/fondo2.jpg");
+    background-image: url("../imagenes/fondo2.jpg");
     background-attachment: fixed;
     background-size: 100vw;
     background-repeat: no-repeat;
-    font-family:'BIZ UDPMincho', serif <link rel="preconnect" href="https://fonts.googleapis.com">
+    font-family:'BIZ UDPMincho', serif<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">   
 }
