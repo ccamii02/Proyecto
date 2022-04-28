@@ -1,6 +1,7 @@
 /*index*/
 
 body{
+    font-family: none;
     margin:0px;
     background-image: url("../imagenes/fondo2.jpg");
     background-attachment: fixed;
@@ -119,9 +120,12 @@ footer ul li a{
     font-weight: 550;
     color: black;
 }
-span{
-    font-weight:500;
+
+.redes{
+    list-style:none;
+    text-align:left;
 }
+
 
 /*separacion del pie*/
 .separacion{
@@ -136,6 +140,17 @@ h2{
     width: 100%;
     font-size: x larger;
 }
+
+span{
+    font-weight:500;
+}
+
+/*modificando contenedor de bootstrap*/
+
+.col{
+    border:solid 2px rgb(243, 150, 89);
+}
+
 
 /*seccion frutos secos*/
 
@@ -153,8 +168,8 @@ h2{
 
 .producto-frutos{
     margin:15px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left:60px;
+    margin-right: 60px;
     position: relative;
     padding:10px;
     padding-bottom:25px;
