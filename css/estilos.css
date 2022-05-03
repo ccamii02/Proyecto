@@ -294,38 +294,39 @@ h3{
 
 /*AQUI VA EL HOVER*/
 
-.imagen-categoria :hover{
+.imagen-categoria:hover{
     transform: scale(1.1);
-    transition:all .5s ease-in-out     
+    transition:all .5s ease-in-out 
+        
 }
 
-.destacados-1 :hover{
+.destacados-1:hover{
     transform: scale(1.1);
-    transition:all .5s ease-in-out
-
+    transition:all .5s ease-in-out  
 }
 
-.menu-index ul a:hover{
+header div a:hover{
     background-color: rgb(229, 255, 176);
     transform: scale(1.1);
     transition:all .5s ease-in-out;
 }
 
-.legumbres-seccion :hover {
-    transform: scale(1.1);
-    transition:all .5s ease-in-out;
-}
-.frutos-secos-producto :hover{
+.producto-legumbres:hover {
     transform: scale(1.1);
     transition:all .5s ease-in-out;
 }
 
-.semillas-producto :hover{
+.producto-frutos:hover{
     transform: scale(1.1);
     transition:all .5s ease-in-out;
-
 }
-.infusiones-producto :hover{
+
+.semillas:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.infusion:hover{
     transform: scale(1.1);
     transition:all .5s ease-in-out;
 }
