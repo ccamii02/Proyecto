@@ -1,0 +1,487 @@
+/*index*/
+
+body{
+    font-family: none;
+    margin:0px;
+    background-image: url("../imagenes/fondo2.jpg");
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    height: 150px;
+    width: 100%;
+    text-align:center;
+    line-height: 25px;
+    background-color:  rgb(187, 241, 198); 
+    display:grid;
+    grid-area: 
+    "header"
+    "main"
+    "footer";     
+
+}
+
+.container-fluid{
+    background-color: rgb(187, 241, 198);
+}
+/*categorias de la tienda*/
+
+.categoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/*imagen de las categorias*/
+
+.imagen-categoria{
+    padding: 14px;  
+    padding-bottom: 25px;
+    position: relative;
+    margin: 50px;
+    border: solid 2px rgb(241, 227, 227);
+    background-color: aliceblue;     
+}
+
+.seccion{
+    left:10px;
+    bottom:10px;
+    position: absolute;
+    color: black;     
+}
+
+div ul li{
+    float: left;
+    list-style:none;
+    margin: 150px;
+    line-height: 1px;
+    font-size: large ;
+    font-weight: 550 ;
+    margin-top: 80px ;
+    margin-bottom: 80px;
+}
+
+/*espacio del subtitulo*/
+
+.espacio{
+    clear: both;
+}
+
+/*imagenes de producto destacados*/
+
+.destacados{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.destacados-1{
+    padding: 10px;
+    padding-bottom: 25px;
+    position: relative;
+    margin: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border:solid 2px rgb(241, 227, 227);
+    background-color:aliceblue;     
+}
+
+h2{
+    text-decoration:underline;
+    text-align: center;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;  
+}
+
+/*pie de la pagina*/
+
+footer{
+   background-color:rgb(187, 241, 198);
+   
+}
+footer ul li a{
+    font-weight: 550;
+    color: black;
+}
+
+.redes{
+    list-style:none;
+    text-align:left;
+}
+
+/*separacion del pie*/
+
+.separacion{
+    clear: both;
+}
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: x larger;
+}
+
+span{
+    font-weight: 500;
+}
+/*modificando contenedor de bootstrap*/
+
+.col{
+    border:solid 2px rgb(243, 150, 89);
+}
+
+
+/*seccion frutos secos*/
+
+/*imagenes seccion frutos secos*/
+
+.frutos-secos-producto{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.producto-frutos{
+    margin: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);
+        
+}
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion legumbres*/
+
+/*imagenes seccion legumbres*/
+
+.legumbres-seccion{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.producto-legumbres{
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px; 
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);       
+}
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion semillas y especias*/
+
+/*imagenes seccion semillas*/
+
+.semillas-producto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.semillas{
+    margin:15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);   
+}
+
+h2{
+     text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*seccion infusiones y tes*/
+
+/*imagenes seccion infusiones y tes*/
+
+.infusiones-producto{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.infusion{
+    margin:14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color:aliceblue;
+    width: 300px;
+    border:2px solid rgb(241, 227, 227);   
+}
+
+h2{
+    text-decoration:underline;
+}
+h3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;   
+}
+
+/*AQUI VA EL HOVER*/
+
+.imagen-categoria:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out 
+        
+}
+
+.destacados-1:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out  
+}
+
+header div a:hover{
+    background-color: rgb(229, 255, 176);
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.producto-legumbres:hover {
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.producto-frutos:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.semillas:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.infusion:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+/*AQUI VA EL MEDIA QUERIES*/
+/*========================*/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:10px;
+        margin-top: 50px;
+    }
+
+    .destacados{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion legumbres*/
+
+    .legumbres-seccion{
+        justify-content: space-around;
+        margin: 0px;
+        
+    }
+
+    .producto-legumbres{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    /*seccion frutos secos*/
+
+    .frutos-secos-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .producto-frutos{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion semillas*/
+
+    .semillas-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .semillas{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion infusiones*/
+
+    .infusiones-producto{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .infusion{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 5px;
+        padding-left: 150px;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:712px){
+
+    body{
+        background-image:none;
+    }
+
+    .categoria{
+        display: grid;
+        justify-content: space-around;
+        margin-left:10px;
+        margin-top: 50px;
+          
+    }
+
+      
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    body{
+        background-image:none;
+    }
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-top: 50px;
+          
+    }
+    
+    .destacados{
+        justify-content: space-around;
+         margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*seccion frutos secos*/
+
+    .frutos-secos-producto{
+        justify-content: space-around;
+        margin: 0px;
+        margin-top: 50px;
+
+    }
+
+    .producto-frutos{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+      
+}
