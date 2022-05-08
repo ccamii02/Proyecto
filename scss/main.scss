@@ -1,7 +1,7 @@
 /*index*/
 
 body{
-    font-family: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:0px;
     background-image: url("../imagenes/fondo2.jpg");
     background-attachment: fixed;
@@ -17,7 +17,7 @@ header{
     width: 100%;
     text-align:center;
     line-height: 25px;
-    background-color: $color-primary ; 
+    background-color: $color-primary; 
     display:grid;
     grid-area: 
     "header"
