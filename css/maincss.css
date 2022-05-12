@@ -1,6 +1,6 @@
 /*index*/
 body {
-  font-family: none;
+  font-family: "Roboto Slab", serif;
   margin: 0px;
   background-image: url("../imagenes/fondo2.jpg");
   background-attachment: fixed;
@@ -13,7 +13,6 @@ header {
   height: 150px;
   width: 100%;
   text-align: center;
-  line-height: 25px;
   background-color: #bbf1c6;
   display: grid;
   grid-area: "header" "main" "footer"; }
@@ -328,6 +327,8 @@ header div a:hover {
 @media screen and (min-width: 480px) and (max-width: 712px) {
   body {
     background-image: none; }
+  header {
+    height: 100%; }
   .categoria {
     display: grid;
     justify-content: space-around;
@@ -360,3 +361,25 @@ header div a:hover {
     justify-content: space-around;
     margin-left: 10px;
     margin-right: 10px; } }
+
+.redes-twitter {
+  color: #5287f8; }
+
+.redes-facebook {
+  color: #2c2cee; }
+
+.redes-instagram {
+  color: #db7082; }
+
+.boton, .boton-primario {
+  border: solid 2px pink;
+  padding: 8px 16px;
+  margin: 8px; }
+
+.boton-primario {
+  background-color: #db7082;
+  border-color: aqua; }
+
+.container {
+  margin-left: 100px;
+  color: black; }
