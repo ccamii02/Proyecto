@@ -16,9 +16,8 @@ header {
   background-color: #bbf1c6;
   display: grid;
   grid-area: "header" "main" "footer"; }
-
-.container-fluid {
-  background-color: #bbf1c6; }
+  header .container-fluid {
+    background-color: #bbf1c6; }
 
 /*categorias de la tienda*/
 .categoria {
@@ -27,21 +26,13 @@ header {
   justify-content: space-around;
   justify-content: space-evenly;
   align-items: center; }
-
-/*imagen de las categorias*/
-.imagen-categoria {
-  padding: 14px;
-  padding-bottom: 25px;
-  position: relative;
-  margin: 50px;
-  border: solid 2px #f1e3e3;
-  background-color: aliceblue; }
-
-.seccion {
-  left: 10px;
-  bottom: 10px;
-  position: absolute;
-  color: black; }
+  .categoria .imagen-categoria {
+    padding: 14px;
+    padding-bottom: 25px;
+    position: relative;
+    margin: 50px;
+    border: solid 2px #f1e3e3;
+    background-color: aliceblue; }
 
 div ul li {
   float: left;
@@ -52,6 +43,11 @@ div ul li {
   font-weight: 550;
   margin-top: 80px;
   margin-bottom: 80px; }
+  div ul li .seccion {
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+    color: black; }
 
 /*espacio del subtitulo*/
 .espacio {
@@ -65,38 +61,33 @@ div ul li {
   justify-content: space-evenly;
   align-items: center;
   margin: 100px; }
-
-.destacados-1 {
-  padding: 10px;
-  padding-bottom: 25px;
-  position: relative;
-  margin: 15px;
-  margin-right: 100px;
-  margin-left: 100px;
-  border: solid 2px #f1e3e3;
-  background-color: aliceblue; }
-
-h2 {
-  text-decoration: underline;
-  text-align: center; }
-
-h3 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  margin: 0px; }
+  .destacados .destacados-1 {
+    padding: 10px;
+    padding-bottom: 25px;
+    position: relative;
+    margin: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: solid 2px #f1e3e3;
+    background-color: aliceblue; }
+  .destacados h2 {
+    text-decoration: underline;
+    text-align: center; }
+  .destacados h3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px; }
 
 /*pie de la pagina*/
 footer {
   background-color: #bbf1c6; }
-
-footer ul li a {
-  font-weight: 550;
-  color: black; }
-
-.redes {
-  list-style: none;
-  text-align: left; }
+  footer footer ul li a {
+    font-weight: 550;
+    color: black; }
+  footer .redes {
+    list-style: none;
+    text-align: left; }
 
 /*separacion del pie*/
 .separacion {
@@ -126,25 +117,22 @@ span {
   justify-content: space-evenly;
   align-items: center;
   margin: 100px; }
-
-.producto-frutos {
-  margin: 15px;
-  margin-left: 60px;
-  margin-right: 60px;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 25px;
-  background-color: aliceblue;
-  width: 300px;
-  border: 2px solid #f1e3e3; }
-
-h2 {
-  text-decoration: underline; }
-
-h3 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px; }
+  .frutos-secos-producto .producto-frutos {
+    margin: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: aliceblue;
+    width: 300px;
+    border: 2px solid #f1e3e3; }
+  .frutos-secos-producto h2 {
+    text-decoration: underline; }
+  .frutos-secos-producto h3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px; }
 
 /*seccion legumbres*/
 /*imagenes seccion legumbres*/
@@ -155,25 +143,22 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
   margin: 100px; }
-
-.producto-legumbres {
-  margin: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 25px;
-  background-color: aliceblue;
-  width: 300px;
-  border: 2px solid #f1e3e3; }
-
-h2 {
-  text-decoration: underline; }
-
-h3 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px; }
+  .legumbres-seccion .producto-legumbres {
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: aliceblue;
+    width: 300px;
+    border: 2px solid #f1e3e3; }
+  .legumbres-seccion h2 {
+    text-decoration: underline; }
+  .legumbres-seccion h3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px; }
 
 /*seccion semillas y especias*/
 /*imagenes seccion semillas*/
@@ -184,25 +169,22 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
   margin: 100px; }
-
-.semillas {
-  margin: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 25px;
-  background-color: aliceblue;
-  width: 300px;
-  border: 2px solid #f1e3e3; }
-
-h2 {
-  text-decoration: underline; }
-
-h3 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px; }
+  .semillas-producto .semillas {
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: aliceblue;
+    width: 300px;
+    border: 2px solid #f1e3e3; }
+  .semillas-producto h2 {
+    text-decoration: underline; }
+  .semillas-producto h3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px; }
 
 /*seccion infusiones y tes*/
 /*imagenes seccion infusiones y tes*/
@@ -213,25 +195,22 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
   margin: 100px; }
-
-.infusion {
-  margin: 14px;
-  margin-left: 100px;
-  margin-right: 100px;
-  position: relative;
-  padding: 10px;
-  padding-bottom: 25px;
-  background-color: aliceblue;
-  width: 300px;
-  border: 2px solid #f1e3e3; }
-
-h2 {
-  text-decoration: underline; }
-
-h3 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px; }
+  .infusiones-producto .infusion {
+    margin: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: aliceblue;
+    width: 300px;
+    border: 2px solid #f1e3e3; }
+  .infusiones-producto h2 {
+    text-decoration: underline; }
+  .infusiones-producto h3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px; }
 
 /*AQUI VA EL HOVER*/
 .imagen-categoria:hover {
@@ -327,8 +306,6 @@ header div a:hover {
 @media screen and (min-width: 480px) and (max-width: 712px) {
   body {
     background-image: none; }
-  header {
-    height: 100%; }
   .categoria {
     display: grid;
     justify-content: space-around;
