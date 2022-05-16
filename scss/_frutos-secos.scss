@@ -1,0 +1,29 @@
+
+.frutos-secos-producto{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+
+    .producto-frutos{
+        margin: 15px;
+        margin-left: 60px;
+        margin-right: 60px;
+        position: relative;
+        padding: 10px;
+        padding-bottom: 25px;
+        background-color:aliceblue;
+        width: 300px;
+        border:2px solid rgb(241, 227, 227);        
+    }
+    h2{
+        text-decoration:underline;
+    }
+    h3{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;   
+    }
+}
