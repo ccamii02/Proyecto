@@ -1,0 +1,37 @@
+
+.imagen-categoria:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out 
+        
+}
+
+.destacados-1:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out  
+}
+
+header div a:hover{
+    background-color: rgb(229, 255, 176);
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.producto-legumbres:hover {
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.producto-frutos:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.semillas:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.infusion:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}

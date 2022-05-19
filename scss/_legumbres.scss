@@ -11,14 +11,16 @@
         padding-bottom: 25px;
         background-color: aliceblue;
         width: 300px;
-        border:2px solid rgb(241, 227, 227);       
+        border:2px solid rgb(241, 227, 227); 
+        align-content: center;      
     }
     h2{
-        text-decoration:underline;
+        text-align: center;
     }
     h3{
         position: absolute;
         left: 0px;
-        bottom: 0px;   
+        bottom: 0px; 
+        padding-left: 10px;  
     }
 }

@@ -1,0 +1,180 @@
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left:10px;
+        margin-top: 50px;
+    }
+
+    .destacados{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+    .legumbres-seccion{
+        justify-content: space-around;
+        margin: 0px;
+        
+    }
+
+    .producto-legumbres{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+   
+    .frutos-secos-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .producto-frutos{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+   
+    .semillas-producto{
+        justify-content: space-around;
+        margin: 0px;
+
+    }
+
+    .semillas{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+    .infusiones-producto{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .infusion{
+        display: grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 5px;
+        padding-left: 150px;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:712px){
+
+    body{
+        background-image:none;
+    }
+
+    .categoria{
+        display: grid;
+        justify-content: space-around;
+        margin-left:10px;
+        margin-top: 50px;
+          
+    }
+
+      
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    body{
+        background-image:none;
+    }
+
+    .categoria{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-top: 50px;
+          
+    }
+    
+    .destacados{
+        justify-content: space-around;
+        margin: 0px;
+    }
+
+    .destacados-1{
+        display:grid;
+        justify-content: space-around;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+     
+}
+
+
+$redes:(
+    twitter:#5287f8,
+    facebook:#2c2cee, 
+    instagram:#db7082, 
+);
+@each $red, $color in $redes {
+    .redes-#{$red}{
+        color:$color;
+        padding: 5px;
+    }
+}
+
+
+.boton{
+    border: solid 2px black;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: #bff5c2;
+}
+
+.boton-primario{
+    @extend .boton;
+    background-color: #db7082;
+    border-color: aqua;
+}
+
+
+@mixin size ($margin) {
+   margin-left:100px;
+    
+}
+.container{
+    @include size (100px);
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+

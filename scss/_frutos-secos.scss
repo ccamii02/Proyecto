@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 100px;
-
+    
     .producto-frutos{
         margin: 15px;
         margin-left: 100px;
@@ -16,12 +16,14 @@
         padding-bottom: 25px;
         background-color:aliceblue;
         width: 300px;
-        border:2px solid rgb(241, 227, 227);        
+        border:2px solid rgb(241, 227, 227); 
+              
     }
     h2{
-        text-decoration:underline;
+        text-align: center;
     }
     h3{
+        padding-left: 10px;
         position: absolute;
         left: 0px;
         bottom: 0px;   
