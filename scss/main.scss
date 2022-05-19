@@ -274,7 +274,7 @@ header div a:hover{
     
     .destacados{
         justify-content: space-around;
-         margin: 0px;
+        margin: 0px;
     }
 
     .destacados-1{
@@ -285,19 +285,7 @@ header div a:hover{
     }
 
 
-    .frutos-secos-producto{
-        justify-content: space-around;
-        margin: 0px;
-        margin-top: 50px;
-
-    }
-
-    .producto-frutos{
-        display: grid;
-        justify-content: space-around;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+    
       
 }
 
@@ -311,6 +299,7 @@ $redes:(
 @each $red, $color in $redes {
     .redes-#{$red}{
         color:$color;
+        padding: 5px;
     }
 }
 
@@ -336,4 +325,6 @@ $redes:(
 .container{
     @include size (100px);
     color:black;
+    display: flex;
+    justify-content: center;
 }
