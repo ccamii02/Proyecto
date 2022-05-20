@@ -12,6 +12,9 @@
     border: solid 2px #f1e3e3;
     background-color: aliceblue; }
 
+.navbar-nav a {
+  margin-left: 150px; }
+
 div ul li {
   float: left;
   list-style: none;
