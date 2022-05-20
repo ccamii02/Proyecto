@@ -119,21 +119,31 @@
     .categoria{
         display:grid;
         justify-content: space-around;
-        margin-left: 10px;
         margin-top: 50px;
+        margin-right: 25px;
           
     }
     
     .destacados{
+        display: flex;
+        justify-content: center;
         justify-content: space-around;
-        margin: 0px;
+        
+        
     }
 
     .destacados-1{
-        display:grid;
+        display:flex;
         justify-content: space-around;
-        margin-left: 10px;
-        margin-right: 10px;
+        justify-content: center;
+        
+    }
+    header{
+        width: 107%;
+    }
+    footer{
+        
+        width: 107%;
     }
      
 }
@@ -153,10 +163,11 @@ $redes:(
 
 
 .boton{
-    border: solid 2px black;
+    border: solid 2px rgb(252, 239, 239);
     padding: 8px 16px;
     margin: 8px;
-    background-color: #bff5c2;
+    background-color: #e3f5e4;
+    text-shadow: 0.1em 0.1em 0.1em rgb(253, 157, 157);
 }
 
 .boton-primario{
@@ -167,11 +178,10 @@ $redes:(
 
 
 @mixin size ($margin) {
-   margin-left:100px;
-    
+   
 }
 .container{
-    @include size (100px);
+    @include size (0px);
     color:black;
     display: flex;
     justify-content: center;
