@@ -12,9 +12,6 @@
     border: solid 2px #f1e3e3;
     background-color: aliceblue; }
 
-.navbar-nav a {
-  margin-left: 150px; }
-
 div ul li {
   float: left;
   list-style: none;
@@ -134,7 +131,12 @@ header {
   display: grid;
   grid-area: "header" "main" "footer"; }
   header .container-fluid {
+    z-index: 2;
     background-color: #bbf1c6; }
+
+.navbar-nav a {
+  z-index: 2;
+  margin-left: 100px; }
 
 .espacio {
   clear: both; }

@@ -23,8 +23,14 @@ header{
     "footer";     
 
     .container-fluid{
-        background-color:$color-primary ;
+        z-index: 2;
+        background-color:$color-primary ;  
     }
+}
+.navbar-nav a{
+    z-index: 2;
+    margin-left: 100px;
+
 }
 
 .espacio{
