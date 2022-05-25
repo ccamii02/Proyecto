@@ -35,7 +35,7 @@
         
     }
 
-   
+
     .frutos-secos-producto{
         justify-content: space-around;
         margin: 0px;
@@ -49,7 +49,7 @@
         margin-right: 10px;
     }
 
-   
+
     .semillas-producto{
         justify-content: space-around;
         margin: 0px;
@@ -103,10 +103,8 @@
         justify-content: space-around;
         margin-left:10px;
         margin-top: 50px;
-          
     }
 
-      
 }
 
 
@@ -116,12 +114,20 @@
         background-image:none;
     }
 
+    header{
+        width: 107%;
+    }
+
+    footer{
+        
+        width: 107%;
+    }
+
     .categoria{
         display:grid;
         justify-content: space-around;
         margin-top: 50px;
         margin-right: 25px;
-          
     }
     
     .destacados{
@@ -138,14 +144,10 @@
         justify-content: center;
         
     }
-    header{
-        width: 107%;
+
+    .contacto2{
+        width: 80%;
     }
-    footer{
-        
-        width: 107%;
-    }
-     
 }
 
 
@@ -158,6 +160,7 @@ $redes:(
     .redes-#{$red}{
         color:$color;
         padding: 5px;
+        
     }
 }
 
@@ -178,7 +181,7 @@ $redes:(
 
 
 @mixin size ($margin) {
-   
+    
 }
 .container{
     @include size (0px);

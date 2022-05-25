@@ -11,8 +11,6 @@
     margin: 50px;
     border: solid 2px #f1e3e3;
     background-color: aliceblue; }
-  .categoria .seccion {
-    margin-left: 10px; }
 
 div ul li {
   float: left;
@@ -27,7 +25,8 @@ div ul li {
     left: 10px;
     bottom: 10px;
     position: absolute;
-    color: black; }
+    color: black;
+    margin-left: 25px; }
 
 .frutos-secos-producto, .legumbres-seccion, .semillas-producto, .infusiones-producto {
   display: flex;
@@ -73,7 +72,7 @@ div ul li {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  padding-left: 10px; }
+  padding-left: 15px; }
 
 .semillas-producto .semillas {
   margin: 15px;
@@ -135,10 +134,9 @@ header {
   header .container-fluid {
     z-index: 2;
     background-color: #bbf1c6; }
-
-.navbar-nav a {
-  z-index: 2;
-  margin-left: 30px; }
+  header .navbar-nav a {
+    z-index: 2;
+    margin-left: 30px; }
 
 .espacio {
   clear: both; }
@@ -180,7 +178,7 @@ footer {
     justify-content: center; }
   footer .container {
     display: flex;
-    justify-content: left; }
+    justify-content: flex-end; }
 
 .separacion {
   clear: both; }
@@ -227,6 +225,46 @@ header div a:hover {
 .infusion:hover {
   transform: scale(1.1);
   transition: all .5s ease-in-out; }
+
+.redes-instagram:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out; }
+
+.redes-facebook:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out; }
+
+.redes-twitter:hover {
+  transform: scale(1.1);
+  transition: all .5s ease-in-out; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center; }
+  .contacto .contacto1 {
+    margin: 10px;
+    border: 2px solid black; }
+  .contacto .contacto2 {
+    border: 2px solid black; }
+
+.icono {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center; }
+  .icono .icono-contacto {
+    padding: 14px;
+    padding-bottom: 25px;
+    position: relative;
+    margin: 50px;
+    border: 2px solid black; }
+  .icono .img-icono {
+    margin-left: 75px;
+    margin-bottom: 10px; }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .categoria {
@@ -295,6 +333,10 @@ header div a:hover {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
     background-image: none; }
+  header {
+    width: 107%; }
+  footer {
+    width: 107%; }
   .categoria {
     display: grid;
     justify-content: space-around;
@@ -308,10 +350,8 @@ header div a:hover {
     display: flex;
     justify-content: space-around;
     justify-content: center; }
-  header {
-    width: 107%; }
-  footer {
-    width: 107%; } }
+  .contacto2 {
+    width: 80%; } }
 
 .redes-twitter {
   color: #5287f8;
@@ -340,30 +380,3 @@ header div a:hover {
   color: black;
   display: flex;
   justify-content: center; }
-
-.contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  justify-content: space-evenly;
-  align-items: center; }
-
-.contacto1 {
-  margin: 10px;
-  border: 2px solid black; }
-
-.icono {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  justify-content: space-evenly;
-  align-items: center; }
-  .icono .icono-contacto {
-    padding: 14px;
-    padding-bottom: 25px;
-    position: relative;
-    margin: 50px;
-    border: 2px solid black; }
-  .icono .img-icono {
-    margin-left: 75px;
-    margin-bottom: 10px; }

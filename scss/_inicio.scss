@@ -26,11 +26,11 @@ header{
         z-index: 2;
         background-color:$color-primary ;  
     }
-}
-.navbar-nav a{
-    z-index: 2;
-    margin-left: 30px;
 
+    .navbar-nav a{
+        z-index: 2;
+        margin-left: 30px;
+    }
 }
 
 .espacio{
@@ -70,8 +70,8 @@ header{
 
 
 footer{
-   background-color:$color-primary;
-   
+    background-color:$color-primary;
+
 
     footer ul li a{
         font-weight: 550;
@@ -89,8 +89,7 @@ footer{
 
     .container{
         display: flex;
-        justify-content:left;
-  
+        justify-content:flex-end;
     }
 
 }

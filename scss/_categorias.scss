@@ -5,6 +5,7 @@
     justify-content: space-around;
     justify-content: space-evenly;
     align-items: center;
+    
 
     .imagen-categoria{
         padding: 14px;  
@@ -14,9 +15,7 @@
         border: solid 2px rgb(241, 227, 227);
         background-color: aliceblue;     
     }
-    .seccion{
-        margin-left: 10px;
-    }
+    
 }
 
 div ul li{
@@ -34,6 +33,7 @@ div ul li{
         left:10px;
         bottom:10px;
         position: absolute;
-        color: black;     
+        color: black; 
+        margin-left: 25px;
     }
 }

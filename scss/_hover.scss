@@ -2,7 +2,6 @@
 .imagen-categoria:hover{
     transform: scale(1.1);
     transition:all .5s ease-in-out 
-        
 }
 
 .destacados-1:hover{
@@ -32,6 +31,19 @@ header div a:hover{
 }
 
 .infusion:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+
+.redes-instagram:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+.redes-facebook:hover{
+    transform: scale(1.1);
+    transition:all .5s ease-in-out;
+}
+.redes-twitter:hover{
     transform: scale(1.1);
     transition:all .5s ease-in-out;
 }
